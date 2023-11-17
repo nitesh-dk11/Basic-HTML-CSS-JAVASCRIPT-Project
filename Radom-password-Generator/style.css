@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+  .note{
+    position: relative;
+    top: -820px;
+    background: #131327;
+    text-align: center;
+   
+  }
+
+  .note h1{
+    font-size: 50px;
+    color: rgb(187, 185, 185);
+  }
+  .note h2{
+    color: rgb(164, 168, 172);
+  }
+
+
+.main {
+    background-color: #131327;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    min-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    scale: 1.2;
+    margin-top: 10px;
+    transition: 1s;
+    color: white;
+    box-shadow: 1px 1px 2px white;
+    scale: 1.2;
+    transition: 1s;
+}
+
+
+.box:hover{
+    scale: 1.22;
+    transition: 1s;
+}
+
+#pass-box {
+    width: 100%;
+    display: block;
+    background-color:#80aecf;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+.passo{
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+   padding: 20px;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+    
+}
+
+
+.allinput{
+    scale: 1.1;
+    background:#121229;
+}
+.allinput .row{
+    border: 2px solid #353547;
+    margin: 1rem;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.allinput .row:hover{
+    background-color:#80aecf;
+    color: #04153B;
+    font-weight: 400;
+}
+
+#total-char{
+    width: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+label {
+    user-select: none;
+}
+
+#btn {
+    width: 40%;
+    font-size: 30px;
+    outline: 0;
+    border: 0;
+    padding: 5px;
+    background-color:#54627B;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10rem;
+    border-radius: 7px;
+    scale: 1.2;
+    transition: 1s;
+}
+
+#btn:hover{
+    scale: 1.21;
+    transition: 1s;
+    box-shadow: 1px 1px 1px rgb(186, 183, 183);
+        background-color: rgb(164, 168, 172);
+        color: rgb(11, 11, 25);
+        transition: 0.6s;
+    
+}
+
+    
+#btns{
+    margin-top: 35px;
+    width: 67%;
+    font-size: 30px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+#btns:hover{
+    background-color: rgb(164, 168, 172);
+    color: rgb(11, 11, 25);
+    transition: 0.6s;
+}
+
+
+
+.g-3{
+    width: 350px;
+    height: 380px;
+  
+    padding: 2.3rem;
+    border-radius: 10px;
+}
+
